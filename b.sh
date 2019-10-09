@@ -10,8 +10,8 @@ do
 	scrapy crawl huoguo
 	scrapy crawl moyu
 	scrapy crawl niao
-	scrapy crawl shengzhe
 	scrapy crawl tuzi
+	scrapy crawl aozhou
 	for b in `seq -w 30 -1 0`
 	do
 		echo -en "---------将会在$b秒后重试。\r"  

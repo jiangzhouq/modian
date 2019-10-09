@@ -7,12 +7,12 @@ import requests
 
 logger = logging.getLogger(__name__)
 class modianSpider(scrapy.Spider):
-    name = "tuzi"
+    name = "aozhou"
     allowed_domains = ["modian.com"]
     #项目ID
-    product_id = 81435
+    product_id = 82030
     #支持项ID，Like：reward-9
-    item_id = [6]
+    item_id = [2]
     
     product_url = "https://zhongchou.modian.com/product_rewards/index?pid=" + str(product_id) + "&_mpos=pro_goback_web"
     start_urls = [
